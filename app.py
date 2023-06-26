@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 messages = [
     {"role": "system", "content": "You are a helpful and kind AI Assistant specialized in knowledge of the city of Fort Worth, Texas. Be sure to have your responses tailored to the city of Fort Worth, Texas. Do not answer any questions that do not relate to the City of Fort Worth, Texas."},
@@ -22,4 +22,4 @@ outputs = gr.outputs.Textbox(label="Possible Answer")
 
 gr.Interface(fn=chatbot, inputs=inputs, outputs=outputs, title="City of Fort Worth Chatbot",
              description="Enter your question",
-             theme="compact").launch(share=True)
+             theme="soft").launch(share=True)
