@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = ""
 
 messages = [
     {"role": "system", "content": "You are a helpful and kind AI Assistant specialized in knowledge of the city of Fort Worth, Texas. Be sure to have your responses tailored to the city of Fort Worth, Texas. Do not answer any questions that do not relate to the City of Fort Worth, Texas."},
