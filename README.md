@@ -20,7 +20,7 @@ Before running the code, make sure you have the following installed:
    ```
 
 2. Set up the OpenAI API key:
-   Replace the placeholder `openai.api_key` in the code with your actual OpenAI API key.
+   Replace the placeholder in app.py line 4 `ENTER OPENAI KEY HERE in the code with your actual OpenAI API key.
 
 3. Launch the chatbot:
    Execute the Python script to start the Gradio interface for the City of Fort Worth Community Support chatbot. The chatbot will be accessible through a local web interface.
@@ -41,14 +41,11 @@ python "C:\Users\mearj\Desktop\app.py"
 
 ## Security Rules
 
-- The chatbot follows specific security rules when accessing different databases (BETA, LAMBDA, and ETHER) to protect sensitive information.
-- Sensitive information (LAMBDA) cannot be pulled from the ETHER database.
-- Dynamic information (GAMMA) cannot be pulled from the BETA database.
-- The chatbot must verify that no sensitive information (LAMBDA) is contained in the final answer before returning to the client.
+- The chatbot follows specific security rules to protect sensitive information. This is just test code for proof of concept. Anything from here must not be sent to the public. 
 
 ## Note
 
-- The chatbot interface has been themed using the "dracula_revamped" theme for a visually appealing experience.
+- The chatbot interface has been themed using the "dracula_revamped" theme for a visually appealing experience. This can be altered using gradio.
 
 ## Example
 
@@ -62,5 +59,6 @@ This chatbot is designed to provide general assistance and information related t
 
 - This code utilizes the GPT-3.5-turbo model from OpenAI for natural language processing and conversation generation.
 - The web interface is built using Gradio, an interactive interface creator for machine learning models.
+- [Beebom.com](https://beebom.com/how-build-own-ai-chatbot-with-chatgpt-api/)
 
 **Note:** The code provided here assumes that you have the necessary permissions and access rights to use the OpenAI API and the data from the City of Fort Worth. Make sure to comply with any legal and ethical considerations before deploying the chatbot in any production environment.
