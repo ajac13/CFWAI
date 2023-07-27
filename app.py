@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = ENTER OPENAI KEY HERE
 
 messages = [
 
